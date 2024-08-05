@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+@font-face {
+    font-family: principal;
+    src: url(WixMadeforText-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: secundaria;
+    src: url(Kavoon-Regular.ttf);
+}
+@font-face{
+    font-family: name;
+    src: url(Yaldevi-VariableFont_wght.ttf);
+}
+
+input{
+    font-family: principal;
+    text-align: left; /* Alinha o texto à direita */
+    padding-left: 15px;
+    
+}
+
+
+.titulo1 {
+
+    position: absolute;
+    top: 33%;
+    left: 41%;
+    font-family: secundaria;
+
+}
+
+.google img{
+
+    position: absolute;
+    left: 44.5%;
+    top: 43%;
+    width: 4.5%;
+    height: 9%;
+}
+
+.apple img{
+
+    position: absolute;
+    left: 51.4%;
+    top: 43%;
+    width: 4.5%;
+    height: 9%;
+}
+
+.linha3{
+
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    top: 56%;
+    left: 37%;
+    background-color: #768C44;
+}
+
+.ou{
+
+    position: absolute;
+    top: 54%;
+    left: 49.3%;
+}
+
+.linha4{
+
+    position: absolute;
+    width: 10%;
+    height: 1px;
+    top: 56%;
+    left: 53%;
+    background-color: #768C44;
+}
+
+#retangulo{
+
+    position: absolute;
+    top: 59%;
+    left: 37%;
+    height: 35px;
+    width: 26%;
+    background-color: #e2ff9357;
+    border-radius: 8px;
+    border-color: black;
+}
+
+#retangulo2{
+
+    position: absolute;
+    top: 68%;
+    left: 37%;
+    height: 35px;
+    width: 26%;
+    background-color: #e2ff9355;
+    border-radius: 8px;
+}
+
+.esqueceu{
+
+    position: absolute;
+    top: 72%;
+    left: 35.2%;
+    font-size: smaller;
+    height: 1px;
+    width: 9.3%;
+    
+}
+.esqueceu:hover {
+
+    color: #768C44;
+}
+
+
+.entrar{
+
+    position: absolute;
+    font-size: small;
+    color: white;
+    top: 80%;
+    height: 41px;
+    width: 26.6%;
+    background-color: #293E06;
+    border-radius: 8px;
+    left: 37%;
+}
+
+.entrar:hover{
+    color: black;
+    background-color: white;
+    font-size:x-small;
+}
+
+.não{
+    position: absolute;
+    top: 85%;
+    left: 41%;
+    font-size: smaller;
+}
+
+.não:hover{
+
+    color: #768C44;
+}
+
+
+

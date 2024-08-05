@@ -1,0 +1,177 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+@font-face {
+    font-family: principal;
+    src: url(/fontes/WixMadeforText-VariableFont_wght.ttf);
+}
+@font-face{
+    font-family: secundaria;
+    src: url(/fontes/Kavoon-Regular.ttf);
+}
+@font-face{
+    font-family: name;
+    src: url(/fontes/Yaldevi-VariableFont_wght.ttf);
+}
+
+
+header{
+    width: 100%;
+    height: 127px;
+    background-color: rgb(255, 255, 255);
+    font-family: principal;
+}
+
+
+.linha{
+    
+position: absolute;
+width: 100%;
+height: 12px;
+top: 25%;
+background-color: #768C44;
+}
+
+.linha2{
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    top:23%;
+    background-color: #768C44;
+
+}
+
+
+.containerchefe {
+    display: flex;
+    position: absolute;
+    top: 5.5%;
+    left: 38%;
+    
+    
+}
+
+.containerchefe p{
+    
+    margin-top: 6%;
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+    color: #000000;
+    font-family: Arial, sans-serif; 
+    font-size: 7px; 
+    padding: 25px;
+    overflow: hidden;
+    
+}
+.containerchefe a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0; 
+    height: 2.5px; 
+    background-color: #000000;
+    transition: width 0.2s ease-in-out; 
+    letter-spacing: .30em; 
+}
+.containerchefe a:hover::after {
+    width: 100%; 
+    
+    
+}
+.containerchefe a:hover{
+     
+    transform: scale(1.08);
+    transition-delay: 5ms;
+}
+
+.loginecadastro{
+    display: flex;
+    position: absolute;
+    left: 84%;
+    top: 7.9%;
+    
+
+}
+
+.loginecadastro a{
+    font-family:principal;
+    font-size: 14px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+    transition: transform 0.1s ease-in-out 0.2s;
+
+}
+
+.loginecadastro p{
+    margin-top: 5%;
+}
+
+.loginecadastro a:hover{
+    background-color: #000000;
+    color: white;
+    border-radius: 10px;
+    transform: scale(1.10);
+    border: 2px white;
+    
+    
+
+}
+
+.logo img{
+
+    position: absolute;
+    left: 10%;
+    width: 8%;
+    height: 14%;
+    top: 4.5%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out 0.2s;
+   
+
+
+}
+
+.logo img:hover{
+    transform: scale(1.08);
+    transition-delay: 350ms;
+    
+    
+}
+
+.texto1{
+    position: absolute;
+    top: 38%;
+    width: 30%;
+    left: 11%;
+    font-size: 50px;
+    font-family:  secundaria;
+    animation: typing 2.5s ease-in-out forwards; 
+    
+}
+
+@keyframes typing {
+    0% { 
+        left: -100%;
+    }
+
+
+ 
+
+    100%{ 
+   
+        left: 15%;
+    
+    }
+}
+
+
+
+
+
