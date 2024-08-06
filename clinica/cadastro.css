@@ -155,9 +155,9 @@ a {
 .cadastro{
 
     position: absolute;
-    top: 36%;
-    left: 35.2%;
-    font-family: secundaria;
+    top: 37%;
+    left: 37.4%;
+    font-family: Kavoon;
     font-size: 255%;
 }
 
@@ -165,7 +165,7 @@ a {
 
     position: absolute;
     top: 45%;
-    left: 34%;
+    left: 35.5%;
     font-size: 180%;
     font-family: Amatic SC;
 }
@@ -180,26 +180,43 @@ input{
 #nome{
 
     position: absolute;
-    top: 60%;
+    top: 56%;
     left: 37%;
     height: 35px;
     width: 26%;
     background-color: #e2ff9355;
     border-radius: 8px;
+    border: 1px solid black; /* Altera a borda do menu */
+
 }
 
 #cpf{
 
     position: absolute;
-    top: 68.5%;
+    top: 63%;
     left: 37%;
     height: 35px;
     width: 26%;
     background-color: #e2ff9355;
     border-radius: 8px;
+    border: 1px solid black; /* Altera a borda do menu */
+
 }
 
 #celular{
+
+    position: absolute;
+    top: 70%;
+    left: 37%;
+    height: 35px;
+    width: 26%;
+    background-color: #e2ff9355;
+    border-radius: 8px;
+    border: 1px solid black; /* Altera a borda do menu */
+
+}
+
+#data{
 
     position: absolute;
     top: 77%;
@@ -208,41 +225,35 @@ input{
     width: 26%;
     background-color: #e2ff9355;
     border-radius: 8px;
-}
+    border: 1px solid black; /* Altera a borda do menu */
 
-#data{
-
-    position: absolute;
-    top: 85.5%;
-    left: 37%;
-    height: 35px;
-    width: 26%;
-    background-color: #e2ff9355;
-    border-radius: 8px;
 }
 
 #email{
 
     position: absolute;
-    top: 94%;
+    top: 84%;
     left: 37%;
     height: 35px;
     width: 26%;
     background-color: #e2ff9355;
     border-radius: 8px;
+    border: 1px solid black; /* Altera a borda do menu */
+
+    
 }
 
 .entrar{
 
     position: absolute;
-    font-size: small;
     color: white;
-    top: 105%;
-    height: 30px;
-    width: 28%;
+    top: 99%;
+    height: 50px;
+    width: 27%;
     background-color: #293E06;
     border-radius: 9px;
-    left: 36.75%;
+    left: 37%;
+    
 }
 
 .entrar:hover{
@@ -259,6 +270,37 @@ input{
 }
 
 
+#gender{
+    position:absolute;
+    top: 91%;
+    left: 37%;
+    height: 36px;
+    width: 27%;
+    background-color: #e2ff9355;
+    border-radius: 8px;
+    font-family: principal;
+    padding-left: 15px;
+
+}
+
+.testemenu1{
+    font-family: principal;    
+    font-size: 15px; /* Altera o tamanho da fonte */
+    color: #333; /* Altera a cor do texto */
+    border: 1px solid #ccc;
+    border-radius: 1000px;
+    left: 90px;
+}
+
+.testemenu2{
+    font-family: principal;    
+    font-size: 15px; /* Altera o tamanho da fonte */
+    color: #333; /* Altera a cor do texto */
+    border: 1px solid #ccc; /* Altera a borda do menu */
+    border-radius: 100px; /* Adiciona bordas arredondadas */
+    left: 30px;
+}
+
 /*TUDO DO FOOTER ABAIXO!!*/
 
 footer{
@@ -268,22 +310,181 @@ footer{
 .onda{
     position: absolute;
     width: 100%;
-    top: 80%;
+    top: 100%;
 }
 
 .footeer{
     position: absolute;
     width: 100%;
-    top: 80%;
+    top: 100%;
 }
 
-.logo{
+.retangulao{
+    position: absolute;
+    top: 165%;
+    height: 60%;
+    width: 100%;
+}
+
+.logo2{
     position: absolute;
     width: 11%;
-    top:138.5%;
-    left: 87.5%;
+    top:160%;
+    left: 83.5%;
+}
+
+.alpha{
+    position: absolute;
+    width: 28%;
+    top:188.5%;
+    left: 63%;
+}
+
+.face{
+    position: absolute;
+    width: 3%;
+    top:206%;
+    left: 69%;
+}
+
+
+.tt{
+    position: absolute;
+    width: 3.5%;
+    top:206%;
+    left: 74.5%;
+}
+
+.insta{
+    position: absolute;
+    width: 3%;
+    top:206%;
+    left: 80.5%;
+}
+
+.home{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    top:200.5%;
+    left: 12.5%;
+    text-decoration: underline;
+}
+
+
+.logintexto{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    width: 3%;
+    top:206%;
+    left: 12.5%;
+    text-decoration: underline;
+}
+
+.agendee{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    width: 3%;
+    top:211.6%;
+    left: 12.5%;
+    text-decoration: underline;
 }
 
 .inicio{
-    font-family: ;
+    position: absolute;
+    color: white;
+    font-family: Kavoon;
+    font-size: 270%;
+    top: 189.5%;
+    left: 12.4%;
+}
+
+.sobre{
+    position: absolute;
+    color: white;
+    font-family: Kavoon;
+    font-size: 270%;
+    top: 189.5%;
+    left: 27.1%;
+}
+.suporte{
+    position: absolute;
+    color: white;
+    font-family: Kavoon;
+    font-size: 270%;
+    top: 189.5%;
+    left: 45.8%;
+}
+
+.aunidade{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    top:200.5%;
+    left: 27.25%;
+    text-decoration: underline;
+}
+
+.especialistas{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    width: 3%;
+    top:206%;
+    left: 27.25%;
+    text-decoration: underline;
+}
+
+.contato{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    top:211.6%;
+    left: 27.25%;
+    text-decoration: underline;
+}
+
+.facetex{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    top:200.5%;
+    left: 45.95%;
+    text-decoration: underline;
+}
+
+.tttext{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    width: 3%;
+    top:206%;
+    left: 45.95%;
+    text-decoration: underline;
+}
+
+.instatext{
+    font-size: 125%;
+    color: white;
+    position: absolute;
+    width: 3%;
+    top:211.6%;
+    left: 45.95%;
+    text-decoration: underline;
+}
+
+
+.linha{
+    background-color: white;
+    top:202%;
+    left: 62.95%;
+    width: 28%;
+    height: 0.2%;
+}
+
+.testee{
+    width: 28%;
+    height: 0.2%;
 }
